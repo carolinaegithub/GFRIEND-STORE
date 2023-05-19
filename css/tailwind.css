@@ -1,0 +1,65 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.menu-link {
+    @apply px-4 hover:text-black transition duration-500 ease-linear 
+}
+
+.search {
+    @apply bg-white
+}
+
+.product {
+    @apply w-72 h-96 bg-gray-50 rounded-lg cursor-pointer hover:bg-gray-200 transition duration-200
+}
+
+.cart {
+    @apply bg-black text-white absolute text-center bottom-0 left-0 right-0 p-3 rounded-b-lg transition duration-500 cursor-pointer w-full hover:text-black hover:bg-gray-50
+} 
+
+.price {
+    @apply bg-black text-white absolute text-center top-0 right-0 m-2 py-3 px-4 rounded-md hover:text-red-300 cursor-pointer
+}
+ 
+input {
+    @apply bg-red-200 rounded-md pl-3 py-3 w-64 md:w-72 lg:w-96 xl:w-auto
+}
+
+.form-container {
+    @apply pt-5 bg-gray-100
+}
+
+.btn {
+    @apply block bg-black text-white border border-white rounded-lg p-4 hover:cursor-pointer hover:bg-black hover:text-white transition duration-500 hover:border hover:border-black shadow-md shadow-black mb-3
+}
+
+.btnmore-botton {
+    @apply rounded-md py-4 px-6 border border-white text-white hover:text-black hover:bg-white transition duration-500 ml-2 
+}
+
+.btnmusic {
+    @apply rounded-md py-4 px-6 border border-white text-white hover:text-black hover:bg-white transition duration-500 mb-7
+}
+
+.inputcontact {
+    @apply w-full bg-white mb-4
+}
+
+.inputmessage {
+    @apply mb-4 w-full bg-white pb-12
+}
+
+.storepicture {
+    @apply w-1/4 my-4 mx-4 shadow-xl shadow-black hover:cursor-pointer transform scale-110 duration-300 
+}
+
+.icon {
+    @apply hover:text-black my-2
+}
+
+.social-media {
+    @apply m-3
+}
